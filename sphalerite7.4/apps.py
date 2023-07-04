@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 
-SVMmodel = joblib.load('./Dependencies/SVM_Sphalerite Classifier.pkl')
-RFmodel = joblib.load('./Dependencies/RF_Sphalerite Classifier.pkl')
+SVMmodel = joblib.load('sphalerite7.4/Dependencies/RF_Sphalerite Classifier.pkl')
+RFmodel = joblib.load('sphalerite7.4/Dependencies/RF_Sphalerite Classifier.pkl')
 feature_names = ['Cd', 'Mn', 'Ag', 'Cu', 'Pb', 'Sn', 'Ga', 'In', 'Sb', 'Co', 'Ge', 'Fe']
 
 prediction_labels = {
